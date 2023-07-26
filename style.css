@@ -27,6 +27,24 @@ body {
   -o-transform: skew(7deg);
 }
 
+@media only screen and (max-width: 896px) {
+  body {
+    overflow-y: auto;
+  }
+
+  .banner {
+    width: auto;
+  }
+
+  .page-content {
+    height: 600px !important;
+  }
+
+  .paralelograma {
+    visibility: hidden;
+  }
+}
+
 .form-container {
   position: relative;
   left: -300px !important;
@@ -45,54 +63,27 @@ body {
   font-family: montserrat, sans-serif;
 }
 
-form {
-  position: relative;
-  top: 120px;
-  left: 150px;
+@media only screen and (max-width: 896px) {
+  .form-container {
+    position: relative;
+    left: -970px !important;
+    top: 290px;
+    padding: 70px;
+    padding-top: 0px;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px !important;
+    height: 300px;
+  }
+
+  .title {
+    top: 20px;
+    left: 40px;
+    margin-bottom: -10px;
+  }
 }
 
-label{
-  font-family: montserrat, sans-serif;
-  color: #4d2480;
-}
-
-input {
-  width: 350px;
-  height: 30px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border: none;
-  border-bottom: 1px solid #7440b4;
-  color: #4d2480;
-}
-
-input:hover {
-  outline-style: none;
-  border-bottom: 2px solid #7440b4;
-}
-
-input:focus {
-  outline-style: none;
-  border-bottom: 2px solid #b941ad;
-}
-
-.submit-btn {
-  background-color: white;
-  width: 100px;
-  height: 30px;
-  margin-top: 20px;
-  border: 1px solid #7440b4;
-  border-radius: 10px;
-  color: #4d2480;
-}
-
-.submit-btn:hover {
- background-color: #7440b4;
- color: white;
- box-shadow: 0px 0px 10px 5px #e28ed9;
-}
-
-.thanks{
+.thanks {
   position: relative;
   top: 200px;
   left: 140px;
@@ -102,7 +93,7 @@ input:focus {
   color: #4d2480;
 }
 
-.social-media{
+.social-media {
   position: relative;
   top: 450px;
   left: 240px;
@@ -112,19 +103,60 @@ input:focus {
   gap: 10px;
 }
 
-.social-media a{
+.social-media a {
   margin-left: 0px;
   margin-right: 20px;
 }
 
-.social-media a:hover{
+.social-media a:hover {
   transform: scale(1.5);
 }
 
-.copyright{
+.copyright {
   position: relative;
   top: 500px;
   left: 235px;
   font-size: small;
   color: rgb(191, 190, 190);
+}
+
+@media only screen and (max-width: 896px) {
+  .thanks {
+    position: relative;
+    top: 100px;
+    left: 0;
+    font-size: 25px;
+    width: 200px;
+    font-weight: 700;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: #4d2480;
+  }
+
+  .social-media {
+    top: 160px;
+    left: 10px;
+  }
+
+  .display-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-media a {
+    margin-left: -10px !important;
+    margin-right: 0px;
+  }
+
+  .social-media a:hover {
+    transform: scale(1.0);
+  }
+
+  .copyright {
+    top: 500px;
+    left: 10px;
+  }
 }
