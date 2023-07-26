@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.page-content {
+  display: flex;
+}
+
+.banner {
+  position: relative;
+  left: -80px;
+}
+
+.paralelograma {
+  position: absolute;
+  left: 650px;
+  width: 200px !important;
+  height: 1000px;
+  background-color: white;
+  -webkit-transform: skew(7deg);
+  -moz-transform: skew(7deg);
+  -o-transform: skew(7deg);
+}
+
+.form-container {
+  position: relative;
+  left: -300px !important;
+  background-color: white;
+  width: 2000px;
+  height: 900px;
+}
+
+.title {
+  color: #4d2480;
+  position: relative;
+  top: 60px;
+  left: 500px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: montserrat, sans-serif;
+}
+
+form {
+  position: relative;
+  top: 120px;
+  left: 150px;
+}
+
+label{
+  font-family: montserrat, sans-serif;
+  color: #4d2480;
+}
+
+input {
+  width: 350px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #7440b4;
+  color: #4d2480;
+}
+
+input:hover {
+  outline-style: none;
+  border-bottom: 2px solid #7440b4;
+}
+
+input:focus {
+  outline-style: none;
+  border-bottom: 2px solid #b941ad;
+}
+
+.submit-btn {
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  border: 1px solid #7440b4;
+  border-radius: 10px;
+  color: #4d2480;
+}
+
+.submit-btn:hover {
+ background-color: #7440b4;
+ color: white;
+ box-shadow: 0px 0px 10px 5px #e28ed9;
+}
+
+.thanks{
+  position: relative;
+  top: 200px;
+  left: 140px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: montserrat, sans-serif;
+  color: #4d2480;
+}
+
+.social-media{
+  position: relative;
+  top: 450px;
+  left: 240px;
+  color: #4d2480;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-media a{
+  margin-left: 0px;
+  margin-right: 20px;
+}
+
+.social-media a:hover{
+  transform: scale(1.5);
+}
+
+.copyright{
+  position: relative;
+  top: 500px;
+  left: 235px;
+  font-size: small;
+  color: rgb(191, 190, 190);
+}
