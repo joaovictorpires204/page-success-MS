@@ -157,6 +157,7 @@ body {
   .community-btn {
     position: relative;
     top: 140px;
+    left: 0px;
     background-color: #28d468;
     height: 70px;
     width: 200px;
