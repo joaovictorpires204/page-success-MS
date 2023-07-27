@@ -66,14 +66,14 @@ body {
 @media only screen and (max-width: 896px) {
   .form-container {
     position: relative;
-    left: -970px !important;
+    left: -960px !important;
     top: 290px;
     padding: 70px;
     padding-top: 0px;
     background-color: white;
     border-radius: 20px;
     width: 300px !important;
-    height: 300px;
+    height: 400px;
   }
 
   .title {
@@ -85,17 +85,38 @@ body {
 
 .thanks {
   position: relative;
-  top: 200px;
-  left: 140px;
-  font-size: 25px;
+  top: 150px;
+  left: 200px;
+  width: 250px;
+  text-align: center;
+  font-size: 30px;
   font-weight: 700;
   font-family: montserrat, sans-serif;
   color: #4d2480;
 }
 
+.community-btn {
+  position: relative;
+  top: 230px;
+  left: 230px;
+  background-color: #28d468;
+  height: 60px;
+  width: 200px;
+  border: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.community-btn:hover {
+ transform: scale(1.2);
+}
+
 .social-media {
   position: relative;
-  top: 450px;
+  top: 380px;
   left: 240px;
   color: #4d2480;
   display: flex;
@@ -114,7 +135,7 @@ body {
 
 .copyright {
   position: relative;
-  top: 500px;
+  top: 430px;
   left: 235px;
   font-size: small;
   color: rgb(191, 190, 190);
@@ -133,8 +154,22 @@ body {
     color: #4d2480;
   }
 
+  .community-btn {
+    position: relative;
+    top: 140px;
+    background-color: #28d468;
+    height: 70px;
+    width: 200px;
+    border: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+  }
+
   .social-media {
-    top: 160px;
+    top: 200px;
     left: 10px;
   }
 
@@ -152,11 +187,11 @@ body {
   }
 
   .social-media a:hover {
-    transform: scale(1.0);
+    transform: scale(1);
   }
 
   .copyright {
-    top: 500px;
+    top: 450px;
     left: 10px;
   }
 }
